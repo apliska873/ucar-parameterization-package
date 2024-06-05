@@ -1,1 +1,1 @@
-from shapes import Shape, Sphere
+from parameterizations.shapes import Shape, Sphere

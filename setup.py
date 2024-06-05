@@ -1,12 +1,12 @@
 from setuptools import setup, find_packages
 
-VERSION = '0.0.1' 
+VERSION = '0.0.3' 
 DESCRIPTION = 'Foo et al. parameterization'
-LONG_DESCRIPTION = 'UCAR assignment Foo et al. parameterization designed with the task '
+LONG_DESCRIPTION = 'UCAR assignment Foo et al. parameterization designed with the task of making an easy to learn and modify shape parameterization package.'
 
 # Setting up
 setup(
-        name="parameterizations", 
+        name="ucar-parameterizations-assignment-ap", 
         version=VERSION,
         author="Austin Pliska",
         author_email="<ajpliska873t.i@email.com>",
@@ -19,7 +19,6 @@ setup(
         classifiers= [
             "Development Status :: 3 - Alpha",
             "Intended Audience :: Education",
-            "Programming Language :: Python :: 2",
             "Programming Language :: Python :: 3",
             "Operating System :: MacOS :: MacOS X",
             "Operating System :: Microsoft :: Windows",
