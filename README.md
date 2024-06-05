@@ -20,7 +20,7 @@ python3 -m pip install ucar-parameterization-assignment-ap
 ## Usage
 
 ```
-from parameterizations.shapes import Shape, Sphere 
+from parameterizations import shapes
 ```
 
 From here, you can use the built in classes to calculate properties of a sphere, including perimeter (circumference) or volume.
